@@ -1,0 +1,15 @@
+#langkah setup
+
+1.pastikan sudah ada service mongodbnya, jika belum bisa download di : 
+https://www.mongodb.com/try/download/community
+2. pastikan sudah ada aplikasi DBMS Mongodb, jika belum bisa download di :
+https://www.mongodb.com/try/download/compass
+
+3.setelah terinstall buka mongocompas dan buat database
+misal nama database : museum_brawijaya
+
+4.buka .env pada proyek dan sesuaikan MONGO_URI
+MONGO_URI=mongodb://127.0.0.1:27017/museum_brawijaya
+
+5. npm run install
+6. npm run dev

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+  --font-poppins: Poppins, sans-serif;
+
+  --color-cod-gray-50: #f6f6f6;
+  --color-cod-gray-100: #e7e7e7;
+  --color-cod-gray-200: #d1d1d1;
+  --color-cod-gray-300: #b0b0b0;
+  --color-cod-gray-400: #888888;
+  --color-cod-gray-500: #6d6d6d;
+  --color-cod-gray-600: #5d5d5d;
+  --color-cod-gray-700: #4f4f4f;
+  --color-cod-gray-800: #454545;
+  --color-cod-gray-900: #3d3d3d;
+  --color-cod-gray-950: #060606;
+
+  --color-brown-tumbleweed-50: #fcfee8;
+  --color-brown-tumbleweed-100: #f7fdc4;
+  --color-brown-tumbleweed-200: #f5fc8c;
+  --color-brown-tumbleweed-300: #f3f94b;
+  --color-brown-tumbleweed-400: #f5f31a;
+  --color-brown-tumbleweed-500: #e5da0d;
+  --color-brown-tumbleweed-600: #c6ad08;
+  --color-brown-tumbleweed-700: #9e7d0a;
+  --color-brown-tumbleweed-800: #836310;
+  --color-brown-tumbleweed-900: #6f5014;
+  --color-brown-tumbleweed-950: #362406;
+
+  --color-violet-50: #ece8ff;
+  --color-violet-100: #ded6ff;
+  --color-violet-200: #c6b5ff;
+  --color-violet-300: #a989ff;
+  --color-violet-400: #965aff;
+  --color-violet-500: #9035ff;
+  --color-violet-600: #9112ff;
+  --color-violet-700: #8e08fa;
+  --color-violet-800: #700ac9;
+  --color-violet-900: #59139c;
+  --color-violet-950: #260840;
+
+  --color-woodsmoke-50: #f6f6f6;
+  --color-woodsmoke-100: #e7e7e7;
+  --color-woodsmoke-200: #d1d1d1;
+  --color-woodsmoke-300: #b0b0b0;
+  --color-woodsmoke-400: #888888;
+  --color-woodsmoke-500: #6d6d6d;
+  --color-woodsmoke-600: #5d5d5d;
+  --color-woodsmoke-700: #4f4f4f;
+  --color-woodsmoke-800: #454545;
+  --color-woodsmoke-900: #3d3d3d;
+  --color-woodsmoke-950: #161616;
+}
+
+body {
+  background-color: #060606f9;
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
